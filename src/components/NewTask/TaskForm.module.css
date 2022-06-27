@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  font:inherit;
+  padding: 0.25rem;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.form button {
+  cursor: pointer;
+  font: inherit;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #000000;
+  border-color: #000000;
+}
